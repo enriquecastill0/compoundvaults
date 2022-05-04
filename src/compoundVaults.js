@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 dotenv.config({path: "../.env"});
 import { ethers } from 'ethers';
 import VaultChef from './constants/vaultChef.js';
-import StrategyABI from './constants/StrategySushi.js' ;
+import StrategyABI from './strategySushi.js' ;
 dotenv.config();
 
 const botPrivateKey = process.env.PRIVATE_KEY;
