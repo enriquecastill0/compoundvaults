@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 dotenv.config({path: "../.env"});
 import { ethers } from 'ethers';
-import VaultChef from './constants/vaultChef.js';
+import VaultChef from './vaultChef.js';
 import StrategyABI from './strategySushi.js' ;
 dotenv.config();
 
